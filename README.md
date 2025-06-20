@@ -13,7 +13,7 @@ The dataset contains:
 - **EV Type** (e.g., 2-Wheeler, 4-Wheeler)
 - **Sales** (Target Variable)
 
-📄 *Dataset is stored as `data/ev_sales_india.csv`.*
+📄 *Dataset is stored as `ev_sales_india.csv`.*
 
 ---
 
@@ -36,7 +36,7 @@ To build a **supervised regression model** that predicts EV sales based on state
 - Year-wise growth
 - Actual vs Predicted comparison
 
-📍 *(Screenshots available in `visuals/` folder)*
+📍 *(prediction_screenshot)*
 
 ---
 
@@ -66,7 +66,7 @@ To build a **supervised regression model** that predicts EV sales based on state
 2. Install requirements  
    `pip install -r requirements.txt`  
 3. Run the notebook:  
-   `notebooks/ev_sales_prediction_india.ipynb`
+   `ev_sales_prediction_india.ipynb`
 
 
 ---
