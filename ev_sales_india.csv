@@ -1,0 +1,21 @@
+State,Year,EV_Type,Sales
+Maharashtra,2018,Two-Wheeler,12000
+Maharashtra,2019,Two-Wheeler,15000
+Maharashtra,2020,Two-Wheeler,18000
+Maharashtra,2021,Two-Wheeler,22000
+Karnataka,2018,Two-Wheeler,8000
+Karnataka,2019,Two-Wheeler,11000
+Karnataka,2020,Two-Wheeler,13000
+Karnataka,2021,Two-Wheeler,17000
+Tamil Nadu,2018,Four-Wheeler,5000
+Tamil Nadu,2019,Four-Wheeler,7000
+Tamil Nadu,2020,Four-Wheeler,9000
+Tamil Nadu,2021,Four-Wheeler,11000
+Delhi,2018,Two-Wheeler,4000
+Delhi,2019,Two-Wheeler,6000
+Delhi,2020,Two-Wheeler,7500
+Delhi,2021,Two-Wheeler,9000
+Gujarat,2018,Four-Wheeler,3000
+Gujarat,2019,Four-Wheeler,4500
+Gujarat,2020,Four-Wheeler,6000
+Gujarat,2021,Four-Wheeler,7000
