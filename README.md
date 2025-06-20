@@ -1,75 +1,77 @@
 # electric-vehicle-sales-prediction-india
 Predicting Electric Vehicle sales in Indian states using ML and data analysis.
-# 🔋 Electric Vehicle Sales Prediction in India using Linear Regression
 
-This project analyzes Electric Vehicle (EV) sales across Indian states and uses a machine learning model (Linear Regression) to predict future EV sales based on historical data.
+# 🔋 Electric Vehicle Sales Prediction (India)
+
+This project aims to predict Electric Vehicle (EV) sales across Indian states using a supervised machine learning approach — **Linear Regression**. It demonstrates a simple end-to-end regression workflow including data preprocessing, encoding, training, and evaluation.
+
+> ⚠️ *Note: This project is built using a small sample dataset and is intended for learning and practice purposes.*
 
 ---
 
 ## 📁 Dataset Overview
-The dataset contains:
-- **State**
-- **Year**
-- **EV Type** (e.g., 2-Wheeler, 4-Wheeler)
-- **Sales** (Target Variable)
 
-📄 *Dataset is stored as `ev_sales_india.csv`.*
+The dataset contains:
+- `State`: Indian state name
+- `Year`: Sales year
+- `EV_Type`: Type of EV (e.g., 2-Wheeler, 4-Wheeler)
+- `Sales`: Number of vehicles sold (Target variable)
+
+📄 File: `data/ev_sales_india.csv`
 
 ---
 
 ## 🧠 Problem Statement
-To build a **supervised regression model** that predicts EV sales based on state, year, and vehicle type.
+
+Use machine learning (Linear Regression) to:
+- Understand trends in EV adoption across states and years
+- Predict EV sales based on available features
 
 ---
 
-## 🔧 Technologies Used
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn (Linear Regression)
+## 🧪 Tools & Technologies Used
+
+| Tool           | Purpose                        |
+|----------------|-------------------------------|
+| Python         | Programming language           |
+| Pandas, NumPy  | Data handling and transformation |
+| Matplotlib, Seaborn | Data visualization       |
+| Scikit-learn   | ML model (Linear Regression)   |
+| Jupyter Notebook | Model development            |
 
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
-- State-wise sales distribution
-- EV type-wise trends
-- Year-wise growth
-- Actual vs Predicted comparison
 
-📍 *(prediction_screenshot)*
+EDA includes:
+- State-wise and EV-type-wise sales overview
+- Year-wise EV sales trends
+- Data encoding and preprocessing
+- Scatter plot: Actual vs Predicted Sales
 
----
-
-## 🤖 Model Details
-- Model: Linear Regression
-- Encoding: LabelEncoder
-- Split: 80% Train, 20% Test
-
-### 📈 Evaluation Metrics:
-- R² Score
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
+📸 *Sample Visualization:*  
+![Actual vs Predicted](prediction_screenshot.png) <!-- Replace with your image path -->
 
 ---
 
-## 📍 Results (Sample)
-| Metric | Value |
-|--------|-------|
-| R²     | ~0.85 (example) |
-| MAE    | ~1,200 (example) |
-| RMSE   | ~1,700 (example) |
+## 🔍 Model Summary
+
+- **Model**: Linear Regression
+- **Features Used**: Year, State (encoded), EV Type (encoded)
+- **Target**: Sales
+
+### ✅ Evaluation Metrics:
+| Metric | Description             |
+|--------|-------------------------|
+| MAE    | Mean Absolute Error     |
+| RMSE   | Root Mean Squared Error |
+| R²     | R-squared Score         |
 
 ---
 
-## 📌 How to Run
-1. Clone this repo  
-2. Install requirements  
-   `pip install -r requirements.txt`  
-3. Run the notebook:  
-   `ev_sales_prediction_india.ipynb`
+## 🚀 How to Run
 
+1. Clone the repo:
+```bash
+git clone https://github.com/PoojaChoudhary-01/electric-vehicle-sales-prediction-india
 
----
-
-## 📬 Connect
-Made with 💙 by [Pooja Choudhary](https://github.com/PoojaChoudhary-01)
