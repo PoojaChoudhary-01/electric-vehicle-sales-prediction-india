@@ -50,7 +50,8 @@ EDA includes:
 - Scatter plot: Actual vs Predicted Sales
 
 📸 *Sample Visualization:*  
-![Actual vs Predicted](prediction_screenshot.png) <!-- Replace with your image path -->
+![Actual vs Predicted](prediction_screenshot.png) <!-- ![prediction_screenshot](https://github.com/user-attachments/assets/4f9a4073-2cc5-4398-8c69-79baff380d14)
+Replace with your image path -->
 
 ---
 
